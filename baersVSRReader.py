@@ -3,7 +3,7 @@ from openpyxl import Workbook
 
 import re
 
-baersRegex = re.compile(r'''(\w{4})\s(.{11})\s(.{4})\s(.{21})\s(.{20})''')
+baersRegex = re.compile(r'''(.{4})\s(\d{3}.\d{5}.\d{1})\s(.{3})\s(.{21})\s(.{20})''')
 
 ppr = ''
 
