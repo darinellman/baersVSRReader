@@ -49,6 +49,9 @@ for line in range(len(lines)):
 
     print(VEND)
 
+    SKU = SKU[0:3] + SKU[4:9] + SKU[10:11]
+
+
     ws['A' + str(rowcnt)] = str(VEND)
     ws['B' + str(rowcnt)] = str(SKU)
     ws['C' + str(rowcnt)] = str(DROP)
